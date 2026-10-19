@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# MLflow experiment tracking runs (keep repo clean, track in cloud)
+mlruns/
+.mlflow/
+mlflow.db
+
+# Private Interview Preparation Guides & Secrets (Strictly NOT for GitHub)
+docs/*.pdf
+docs/interview_preparation_mastery.md
+docs/generate_pdf.py
+*.pdf
+private/
+
+# Virtual Environments
+venv/
+env/
+ENV/
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
