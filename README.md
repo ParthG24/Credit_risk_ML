@@ -64,8 +64,6 @@ Credit_risk_ML/
 │   ├── threshold.pkl               # Decision threshold
 │   ├── preprocessor.pkl            # Preprocessing pipeline
 │   └── explainer.pkl               # SHAP explainer
-├── tests/
-│   └── test_api.py                 # API tests
 ├── Dockerfile                      # Docker setup
 ├── docker-compose.yml              # Docker compose runner
 ├── requirements.txt                # Project dependencies
@@ -115,18 +113,7 @@ docker compose up --build
 - `POST /explain` - Returns risk verdict plus top positive and negative factors for that applicant.
 - `GET /health` - Health check status.
 
----
-
-## Running Tests
-
-Run the test suite with pytest:
-
-```bash
-python -m pytest tests/ -v
-```
-
----
-
 ## License
 
 MIT
+
