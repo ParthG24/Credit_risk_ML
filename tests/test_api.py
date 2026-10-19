@@ -1,5 +1,6 @@
 """
-Unit and Integration Test Suite for Credit Risk FastAPI Service.
+Credit Risk Prediction Unit and Integration Test Suite for FastAPI Service.
+
 """
 
 import pytest
